@@ -17,13 +17,10 @@ after stopping, please run Stop.py
 
 Very basic server:
 
-<code>
+<code>def Start():</code>
+<code>    return ['oi mate', '.']</code>
     
-def Start():
-    
-    return ['oi mate', '.']
-    
-</code>
+
 
 https://localhost/
 
