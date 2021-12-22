@@ -17,17 +17,23 @@ after stopping, please run Stop.py
 
 Very basic server:
 
-<code><br><br>
-def Start():<br><br>
+<code>
+    
+def Start():
+    
     return ['oi mate', '.']<br><br>
+    
 </code>
 
 https://localhost/
 
 
-<code><br><br>
-def Start():<br><br>
+<code>
+    
+def Start():
+    
     return ['oi mate', 'hello']<br><br>
+    
 </code>
 
 https://localhost/hello
@@ -36,18 +42,26 @@ https://localhost/hello
 
 
 <code><br><br>
+    
 content = open ('path.html', 'r')<br><br>
+    
 content = content.read()<br><br>
+    
 def Start():<br><br>
+    
     return [content, 'wherever you want']<br><br>
+    
 </code>
 
 (note - you cannot have your html file in the project folder, you must place it in a diffrent folder.)
 
 <code><br><br>
 --> base<br><br>
+    
 --> index.html<br><br>
+    
     --> BasicPyServer<br><br>
+    
 </code>
 
 this should work great.
