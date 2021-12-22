@@ -5,6 +5,7 @@ A basic, but very easy to use Python web server for one page sites. Offers basic
 Python 3.8+
 
 No libraries required
+
 ~
 ##### • Usage
 Edit `server.py` to change the content and location of the site.
@@ -12,6 +13,7 @@ Edit `server.py` to change the content and location of the site.
 Start `server.bat` to start up the server.
 
 After stopping the server, please run `stop.py`.
+
 ~
 ##### • Examples
 Very basic server:
