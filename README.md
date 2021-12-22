@@ -21,7 +21,7 @@ Very basic server:
     
 def Start():
     
-    return ['oi mate', '.']<br><br>
+    return ['oi mate', '.']
     
 </code>
 
@@ -32,7 +32,7 @@ https://localhost/
     
 def Start():
     
-    return ['oi mate', 'hello']<br><br>
+    return ['oi mate', 'hello']
     
 </code>
 
@@ -41,26 +41,26 @@ https://localhost/hello
 (https://localhost/ will be blank, and other pages will display 404)
 
 
-<code><br><br>
+<code>
     
-content = open ('path.html', 'r')<br><br>
+content = open ('path.html', 'r')
     
-content = content.read()<br><br>
+content = content.read()
     
-def Start():<br><br>
+def Start():
     
-    return [content, 'wherever you want']<br><br>
+    return [content, 'wherever you want']
     
 </code>
 
 (note - you cannot have your html file in the project folder, you must place it in a diffrent folder.)
 
-<code><br><br>
---> base<br><br>
+<code>
+--> base
     
---> index.html<br><br>
-    
-    --> BasicPyServer<br><br>
+--> index.html
+   
+    --> BasicPyServer
     
 </code>
 
