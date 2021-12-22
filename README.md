@@ -20,6 +20,7 @@ Very basic server:
 <code>
 
 def Start():
+    
     return ['oi mate', '.']
 
 </code>
@@ -29,6 +30,7 @@ https://localhost/
 
 <code>
 def Start():
+    
     return ['oi mate', 'hello']
 </code>
 
@@ -39,10 +41,13 @@ https://localhost/hello
 
 <code>
 content = open ('path.html', 'r')
+    
 content = content.read()
 
 def Start():
+    
     return [content, 'wherever you want']
+    
 </code>
 
 (note - you cannot have your html file in the project folder, you must place it in a diffrent folder.)
