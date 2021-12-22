@@ -3,11 +3,14 @@ A basic, but very easy to use Python web server for one page sites. Offers basic
 ~
 ##### • Requirements
 Python 3.8+
+
 No libraries required
 ~
 ##### • Usage
 Edit `server.py` to change the content and location of the site.
+
 Start `server.bat` to start up the server.
+
 After stopping the server, please run `stop.py`.
 ~
 ##### • Examples
@@ -38,6 +41,7 @@ def Start():
    -->BasicPyServer
 ```
 this should work great.
+
 just make sure to use "../index.html", or wherever your file is stored.
 
 When the server is stopped, remember to run `stop.py`, otherwise the cache wont be cleared and it will be impossible to choose a new server route.
