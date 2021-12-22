@@ -23,6 +23,7 @@ def Start():
     return ['oi mate', '.']
 
 </code>
+
 https://localhost/
 
 
@@ -32,6 +33,7 @@ def Start():
 </code>
 
 https://localhost/hello
+
 (https://localhost/ will be blank, and other pages will display 404)
 
 
@@ -45,10 +47,13 @@ def Start():
 (note - you cannot have your html file in the project folder, you must place it in a diffrent folder.)
 
 --> base
+
 --> index.html
+
     --> BasicPyServer
 
 this should work great.
+
 just make sure to use "../index.html", or wherever your file is stored.
 
 When the server is stopped, remember to run stop.py, otherwise the cache wont be cleared and it will be impossible to choose a new server route.
