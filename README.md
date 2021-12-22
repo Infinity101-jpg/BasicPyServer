@@ -44,6 +44,7 @@ content = content.read()
 def Start():
     return [content, 'wherever you want']
 </code>
+
 (note - you cannot have your html file in the project folder, you must place it in a diffrent folder.)
 
 --> base
