@@ -1,5 +1,5 @@
 #### • BasicPyServer
-A basic, but very easy to use Python web server for one page sites. Offers basic protection, such as full protection against people accessing the filesystem. As of yet, no external CSS or Javascript files can be used.
+A basic, but very easy to use Python web server for one page sites. Offers basic protection, such as full protection against people accessing the filesystem. As of now, no external CSS or Javascript files can be used.
 ~
 ##### • Requirements
 Python 3.8+
